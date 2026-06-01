@@ -30,6 +30,11 @@ The dashboard calculates each city's annual mortgage-cost-to-income ratio using:
 - **matplotlib** — static charts
 - **requests** — Bank of Canada API integration
 
+
+## Data Pipeline
+
+All three data sources are pulled programmatically — Bank of Canada via Valet REST API, and StatsCan via the Web Data Service API. Re-running `fetch_data.py` and `fetch_statscan.py` refreshes the entire pipeline.
+
 ## Project Structure
 ## Running Locally
 
